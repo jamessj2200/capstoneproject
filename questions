@@ -1,0 +1,27 @@
+1.  What is Node.js's main advantage over traditional server-side technologies?
+    Node.js's main advantage is its non-blocking, event-driven architecture, which allows it to handle many simultaneous connections efficiently and is ideal for real-time applications.
+
+2.  Which JavaScript engine powers Node.js?
+     Node.js is powered by the V8 JavaScript engine, which is developed by Google and also used in the Chrome web browser.
+
+3. What does npm stand for, and what is its purpose?
+   -  npm stands for Node Package Manager. It is used to install, share, and manage dependencies and packages for Node.js projects.
+
+4.  What is the command to initialize a new Node.js project and create a `package.json` file?
+   -  The command to initialize a new Node.js project and create a `package.json` file is:
+     ```bash
+     npm init
+     ```
+
+5. How do you handle file operations (like reading or writing files) asynchronously in Node.js?
+   - You can handle file operations asynchronously in Node.js using the `fs` module, which provides methods like `fs.readFile()` and `fs.writeFile()`, typically with a callback, Promises, or async/await for handling the result.
+
+6. What are "streams" in Node.js, and why are they important?
+   - Streams in Node.js are objects that allow you to read data from a source or write data to a destination in a continuous manner. They are important for handling large amounts of data efficiently, as they process data piece-by-piece without holding it all in memory.
+
+7. How do you install a specific version of a package using npm?
+   - To install a specific version of a package using npm, you specify the version number after the package name, like so:
+     ```bash
+     npm install <package-name>@<version>
+ For example, to install version 4.17.1 of Express
+     npm install express@4.17.1
